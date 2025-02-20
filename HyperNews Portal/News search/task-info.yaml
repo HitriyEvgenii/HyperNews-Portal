@@ -1,0 +1,53 @@
+type: edu
+files:
+  - name: hypernews/__init__.py
+    visible: true
+    learner_created: false
+  - name: hypernews/settings.py
+    visible: true
+    learner_created: false
+  - name: hypernews/urls.py
+    visible: true
+    learner_created: false
+  - name: hypernews/wsgi.py
+    visible: true
+    learner_created: false
+  - name: news/migrations/__init__.py
+    visible: true
+    learner_created: false
+  - name: news/__init__.py
+    visible: true
+    learner_created: false
+  - name: news/admin.py
+    visible: true
+    learner_created: false
+  - name: news/apps.py
+    visible: true
+    learner_created: false
+  - name: news/models.py
+    visible: true
+    learner_created: false
+  - name: news/tests.py
+    visible: true
+    learner_created: false
+  - name: news/views.py
+    visible: true
+    learner_created: false
+  - name: manage.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/base.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/102/stages/565/implement#comment
+status: Unchecked
+record: -1
