@@ -60,9 +60,12 @@ files:
   - name: hypernews/news.json
     visible: true
     learner_created: true
+  - name: news/templates/news/article.html
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/102/stages/561/implement#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 20 Feb 2025 15:45:35 UTC"
+  time: "Thu, 20 Feb 2025 20:09:30 UTC"
 record: -1
