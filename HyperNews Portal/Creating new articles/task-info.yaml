@@ -48,6 +48,30 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
-feedback_link: https://hyperskill.org/projects/102/stages/564/implement#comment
-status: Unchecked
-record: -1
+  - name: news/templates/news/index.html
+    visible: true
+    learner_created: true
+  - name: news/urls.py
+    visible: true
+    learner_created: true
+  - name: news/templates/news/article.html
+    visible: true
+    learner_created: true
+  - name: news/templates/news/news_list.html
+    visible: true
+    learner_created: true
+  - name: news/templates/news/create_article.html
+    visible: true
+    learner_created: true
+  - name: news/templates/news.json
+    visible: true
+    learner_created: true
+  - name: hypernews/news.json
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/9414#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 22 Feb 2025 19:31:14 UTC"
+record: 4

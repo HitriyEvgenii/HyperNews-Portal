@@ -12,7 +12,5 @@ summary: "<p>Sitting down with a coffee and reading a newspaper is pretty much a
 programming_language: Python
 content:
   - HyperNews Portal
-additional_files:
-  - name: requirements.txt
 mode: Study
 yaml_version: 2

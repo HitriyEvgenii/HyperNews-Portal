@@ -20,5 +20,7 @@ from . import views
 urlpatterns = [
     path('', views.Index.as_view()),
     #path('news/<int:post_id>/', views.Article.as_view(), name='article'),
-path('news/<int:post_id>/', views.article, name='article'),
+    path('news/', views.news_list),
+    path('news/<int:post_id>/', views.article, name='article'),
+    path('news/create/', views.CreateArticle.as_view(), name='create'),
 ]
