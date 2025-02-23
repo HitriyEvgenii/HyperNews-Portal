@@ -12,16 +12,27 @@
 <ul>
     {% for new in created_list %}
 
+
         <h4>{{ new.grouper|date:"Y-m-d" }}</h4>
             <ul>
+
             {% for article in new.list %}
+
                 <li><a href="/news/{{ article.link }}/">{{ article.title }}</a></li>
 
             {% endfor %}
+
             </ul>
 
     {% endfor %}
 </ul>
-<a href="/news/create/">create</></a>
+<a href="/news/create/">create</a>
+
+<form action="/news/" method="get">
+        <label for="1">Query: </label>
+        <input id="1" type="text" name="q">
+
+        <input type="submit" value="Search">
+    </form>
 </body>
 </html>

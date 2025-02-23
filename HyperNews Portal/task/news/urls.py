@@ -23,4 +23,5 @@ urlpatterns = [
     path('news/', views.news_list),
     path('news/<int:post_id>/', views.article, name='article'),
     path('news/create/', views.CreateArticle.as_view(), name='create'),
+    #path('news/?q', views.qu),
 ]
